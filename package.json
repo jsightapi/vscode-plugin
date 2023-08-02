@@ -1,0 +1,25 @@
+{
+    "name": "jschema",
+    "displayName": "JSchema",
+    "description": "JSight Schema Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jschema",
+            "aliases": ["JSchema", "jschema"],
+            "extensions": [".jschema"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jschema",
+            "scopeName": "source.jschema",
+            "path": "./syntaxes/jschema.tmLanguage.json"
+        }]
+    }
+}

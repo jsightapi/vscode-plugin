@@ -1,0 +1,27 @@
+###
+    block comments
+###
+
+@someType // {optional: false} — some text # comment
+
+@someTyoe | @otherType
+
+{
+    "simple": @userType,
+    "or": @type | @other,
+}
+
+{
+    @userKey: {},
+    @userKey: @userType
+}
+
+[
+    @sometype | @otherType
+]
+
+{
+    unsupported: {
+        @mytype: 
+    }
+}

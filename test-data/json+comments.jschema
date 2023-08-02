@@ -1,0 +1,38 @@
+###
+    block comments
+###
+
+{ # comment
+   "key": "value" # comment
+}
+
+{ # comment
+   "key": "value", # comment
+   "key_2": "value_2" # comment
+}
+
+{ // annotation # comment
+   "key": "value", // annotation # comment
+   "key_2": "value_2" // annotation # comment
+}
+
+{ /*
+    multi
+    line
+    annotation
+   */  # comment
+   "key": "value", /*
+                        multi
+                        line
+                        annotation
+                    */ # comment
+   
+   "key_2": "value_2" /*
+                        multi # comment
+                        line # comment
+                        ###
+                            block comment
+                        ###
+                        annotation
+                    */ # comment
+}
