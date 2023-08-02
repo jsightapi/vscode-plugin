@@ -1,0 +1,43 @@
+TYPE @name
+  {
+    "key": "param"
+  }
+
+TYPE @name // annotation # comment
+  {
+    "key": "param"
+  }
+
+TYPE @name jsight // annotation # comment
+  {
+    "key": "param"
+  }
+
+TYPE @name jsight // annotation # comment
+  [{
+    "key": "param"
+  }]
+
+TYPE @name jsight // annotation # comment
+  123
+
+TYPE @name jsight // annotation # comment
+  true
+
+TYPE @name jsight // annotation # comment
+  @otherType
+
+TYPE @name regex // annotation # comment
+  /.*/ # comment
+
+
+TYPE @name jsight /* multi # comment
+                      line # comment
+                      annotation # comment
+                  */
+  ###
+    comment block
+  ###
+  {
+    "key": "param"
+  }

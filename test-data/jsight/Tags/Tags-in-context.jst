@@ -1,0 +1,26 @@
+TAG @tagName1 // annotation 1
+	Description
+		text 1
+
+TAG @tagName2 // annotation 2
+	Description
+		text 2
+
+TAG @tagName3 // annotation 3
+	Description
+		text 3
+
+URL /
+	Tags @tagName1 @tagName2
+
+	GET
+	POST
+	DELETE
+		Tags @tagName3
+
+
+# RPC
+
+URL /rpc
+  Method rpcMethod
+  	Tags @tagName1 @tagName2 @tagName3

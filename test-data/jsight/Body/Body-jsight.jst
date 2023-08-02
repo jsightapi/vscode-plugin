@@ -1,0 +1,75 @@
+POST /dummy 
+
+  Body // annotation # comment
+      123
+
+POST /dummy 
+
+  Body // annotation # comment
+    true
+
+POST /dummy 
+  Body // annotation # comment
+    false
+
+POST /dummy 
+  Body // annotation # comment
+    null
+
+POST /dummy 
+  Body // annotation # comment
+    "somestring"
+
+POST /dummy 
+  Body // annotation # comment
+    {
+      "key": "value" // { nullable: false }
+    }
+
+POST /dummy 
+  Body // annotation # comment
+    [
+      "one"
+    ]
+
+POST /dummy 
+  Body // annotation # comment
+    @typeInSchema
+
+  # With explicit notation
+
+POST /dummy 
+  Body jsight // annotation # comment
+    123
+
+POST /dummy 
+  Body jsight // annotation # comment
+    true
+
+POST /dummy 
+  Body jsight // annotation # comment
+    false
+
+POST /dummy 
+  Body jsight // annotation # comment
+    null
+
+POST /dummy 
+  Body jsight // annotation # comment
+    "somestring"
+
+POST /dummy 
+  Body jsight // annotation # comment
+    {
+      "key": "value" // { nullable: false }
+    }
+
+POST /dummy 
+  Body jsight // annotation # comment
+    [
+      "one"
+    ]
+
+POST /dummy 
+  Body jsight // annotation # comment
+    @typeInSchema

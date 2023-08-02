@@ -1,25 +1,72 @@
 {
-    "name": "jschema",
-    "displayName": "JSchema",
-    "description": "JSight Schema Language",
-    "version": "0.0.1",
+    "name": "jsight",
+    "displayName": "JSight",
+    "description": "JSight API & JSight Schema languages official extension",
+    "publisher": "jsight",
+    "version": "1.0.0",
+    "icon": "./images/icon.png",
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jsightapi/vscode-plugin.git"
+      },
     "contributes": {
-        "languages": [{
-            "id": "jschema",
-            "aliases": ["JSchema", "jschema"],
-            "extensions": [".jschema"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "jschema",
-            "scopeName": "source.jschema",
-            "path": "./syntaxes/jschema.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "jschema",
+                "aliases": ["JSchema", "jschema"],
+                "extensions": [".jschema"],
+                "configuration": "./jsight-schema-language-configuration.json"
+            },
+            {
+                "id": "jsight",
+                "aliases": ["JSight", "jsight"],
+                "extensions": [".jst", ".jsight"],
+                "configuration": "./jsight-api-language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jschema",
+                "scopeName": "source.jschema",
+                "path": "./syntaxes/jschema.tmLanguage.json"
+            },
+            {
+                "language": "jsight",
+                "scopeName": "source.jsight",
+                "path": "./syntaxes/jsight.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "id": "JSight Dark",
+                "label": "JSight Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jsight_dark_current.json"
+            },
+            {
+                "id": "JSight Dark 2",
+                "label": "JSight Dark 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jsight_dark_2.json"
+            },
+            {
+                "id": "JSight Dark 3",
+                "label": "JSight Dark 3",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jsight_dark_3.json"
+            },
+            {
+                "id": "JSight Dark 4",
+                "label": "JSight Dark 4",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jsight_dark_4.json"
+            }
+        ]
     }
 }

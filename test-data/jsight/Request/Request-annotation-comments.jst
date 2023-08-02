@@ -1,0 +1,41 @@
+# For usertypes
+
+Request @some // annotation  # comment
+
+Request @some /* block one-line annotation */  # comment
+
+# TODO
+
+# For jsight
+
+Request /* mutli # comment
+          line # comment
+          annotation  # comment
+        */
+  ###
+    block comment
+  ### 
+  @some # comment
+
+Request /* annotation  # comment
+        */
+  ###
+    block comment
+  ### 
+  // annotation of nothing (not highlited)
+  123 # comment
+  // annotation of nothing (not highlited)
+
+Request // annotation # comment
+  ###
+    block comment
+  ### 
+  // annotation of nothing (not highlited)
+  {
+    "one": "two"
+  } # comment
+  // annotation of nothing (not highlited)
+
+# For regex
+
+# TODO

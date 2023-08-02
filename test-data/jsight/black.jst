@@ -1,0 +1,34 @@
+JSIGHT 0.3
+
+INFO
+  Title "Highlight test"
+
+TYPE @cat
+{
+  ###
+  ENUM
+  ###
+}
+
+### asd
+ENUM @catSizeEnum // Cat’s sizes.
+[
+  // Small cats.
+  "S",
+  "M",
+  // Normal cats.
+  "L",
+  /* Huge 
+  cats */
+  "XL",
+  "XXL"
+]
+###
+
+MACRO @commonErrors
+(
+  404
+    Body regex
+      /Bad request./
+  500 any
+)

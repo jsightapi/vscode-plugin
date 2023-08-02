@@ -1,65 +1,45 @@
-# jsight README
+<div align="center">
 
-This is the README for your extension "jsight". After writing up a brief description, we recommend including the following sections.
+<a href="https://jsight.io" align="left"><img src="./images/jsight-logo.png" alt="Try now!" width="148px"/></a>
+	
+# JSight VS Code Extension
+
+  [![Telegram support](https://img.shields.io/badge/Support-Telegram-blue)](https://t.me/jsight_support)
+  [![License](https://img.shields.io/github/license/jsightapi/online-editor-frontend?colorB=ff0000)](https://github.com/jsightapi/vscode-plugin/blob/main/LICENSE)
+  [![JSight on Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/jsightapi)
+  [![JSight on LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/jsightapi/)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/jsightapi.svg?style=social)](https://twitter.com/jsightapi)
+
+</div>
+
+## Installation
+
+JSight VS Code Extension can be installed exactly like any other VS Code extension. See more here:
+[Install an
+extension](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- [JSight API](https://jsight.io/docs/jsight-api-0-3) syntax highlight. JSight API files: `*.jst`, `*.jsight`.
+- [JSight Schema](https://jsight.io/docs/jsight-schema-0-3) syntax highlight. JSight Schema files: `*.jschema`.
 
-For example if there is an image subfolder under your extension project workspace:
+## Change Color Theme
 
-\!\[feature X\]\(images/feature-x.png\)
+Once you have installed the JSight extension, you should change the color theme, which will make your
+JSight files more readable:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. In VS Code, open the Color Theme picker with **File** > **Preferences** > **Theme** > **Color Theme**.
+2. You can also use the keyboard shortcut `Ctrl+K Ctrl+T` to display the picker.
+3. Use the cursor keys to select the "**JSight Dark**" scheme (or "JSight Dark 2", "JSight Dark 3" etc.).
+4. Press Enter.
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+See more about Color Themes here: [Selecting the Color
+Theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+> Aug 2, 2023.
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release.

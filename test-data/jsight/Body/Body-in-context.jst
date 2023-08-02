@@ -1,0 +1,101 @@
+
+# Explicit request body
+POST /cats
+
+  Request
+    Body 
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"
+
+# Explicit request body after headers
+POST /cats
+
+  Request
+    Headers
+      {
+        "Authorization": "123"
+      }
+
+    Body
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"   
+  
+
+
+# Explicit respnse body
+GET /cats
+
+  200
+    Body 
+      {
+        "name": "Tom"
+      }
+
+# Explicit response body after headers
+GET /cats
+
+  200
+    Headers
+      {
+        "Content-type": "application/json"
+      }
+
+    Body
+      {
+        "name": "Tom"
+      }
+
+
+# Explicit request body
+POST /cats
+
+  Request
+    Body 
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"
+
+# Explicit request body after headers
+POST /cats
+
+  Request
+    Headers
+      {
+        "Authorization": "123"
+      }
+
+    Body
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"   
+  
+
+
+# Explicit response body typed
+GET /cats/{id}
+
+  200
+    Body @cat
+
+# Explicit response body after headers
+GET /cats
+
+  200
+    Headers 
+      @commonHeaders
+
+    Body [@cat]

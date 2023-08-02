@@ -1,0 +1,24 @@
+URL /some
+
+  Protocol json-rpc-2.0
+
+  Method createCat // to create a cat
+
+    ### comment
+        block ###
+        
+    Params
+      {
+        "one": "two",
+        "three": 4, // {max: 5}
+        "five": false // {optional: true}
+      }
+
+  ###
+    comment block
+  ###
+
+    Result
+      "Ok"
+
+URL /another

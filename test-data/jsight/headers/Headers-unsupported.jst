@@ -1,0 +1,42 @@
+# TODO
+
+Headers // annotation not allowed so not highlighted # comment line
+# line comment
+###
+    block comment
+###
+ { // {additionalProperties: false}
+     "one": "two"
+ }
+
+
+
+Headers # comment line
+    @userTypeAsSchema
+
+
+# Check that unsupported stuff is not highlighted
+
+Headers @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+
+
+Headers @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+ true # literals should not be highlighted as a valid schema here
+
+
+Headers @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+ "string" # literals should not be highlighted as a valid schema here
+
+Headers // annotation not allowed so not highlighted # comment line
+# arrays are not supported, so not hightlighted as a valid schema
+ [ // {additionalProperties: false}
+     "one": "two"
+ ]
+
+# The next directive is not affected by it
+ Body 
+  {
+      "one": "two" // {nullable: false}
+  }
+
+ 

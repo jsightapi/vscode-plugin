@@ -1,0 +1,20 @@
+POST /cat/{id}/friend/{friend:id}
+
+  Path // annotation is not supported 
+    {
+      "id": 123,
+      "friend:id": 123
+    }
+
+
+POST /cat/{id}/friend/{friend:id}
+
+  Path // annotation is not supported 
+    123 # int literals not supported
+     123
+
+
+POST /cat/{id}/friend/{friend:id}
+
+  Path // annotation is not supported 
+    true # json literals not supported

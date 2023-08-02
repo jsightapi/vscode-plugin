@@ -1,0 +1,28 @@
+###
+ root block comment
+###
+
+# root line comment
+
+200 regex /* block one-line annotation */ 
+ /.*/  # line comment
+
+200 regex /* block one-line annotation */ 
+# line comment
+###
+    block comment  
+###
+ /.*/ 
+ 
+### <- block comment start
+    200 regex // annotation # comment
+block comment end -> ### 
+
+200 regex /* 
+                block # line comment
+                annotation # line comment
+                ###
+                    block comment
+                ###
+          */ # line comment
+ /.*/
