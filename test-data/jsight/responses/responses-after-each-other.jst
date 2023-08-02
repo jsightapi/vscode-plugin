@@ -1,0 +1,48 @@
+###
+ Это блочный коммент без всего
+###
+
+# это строчный коммент без всего
+
+// это аннотация от «ничего» — по идее невалидна и не должна посдвечиваться. Убрать аннотации из корневых паттернов.
+/*
+    это аннотация от «ничего» — по идее невалидна и не долдна посдвечиваться. Убрать аннотации из корневых паттернов.
+*/
+
+
+500 /*  like # comment
+        every line # comment
+        of annotation # comment
+        ### 
+           and a block inside
+        ###
+        can have own comment #comment 
+    */ # adsa
+    123
+
+200 jsight // annotation # comment 
+ 123
+
+200 regex /* annotation */  # comment
+ /.*/ 
+###
+ block comment
+###
+# line comment
+
+200 @some # comment
+ 
+200 [@some] // annotaion # comment
+
+200 regex
+ /.*/
+
+200 
+    "someSchema"
+
+200 jsight
+    [{ // {additionalProperties: true}
+        "one": "two" // {one: "two"}
+    }]
+
+200 regex

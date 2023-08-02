@@ -1,0 +1,27 @@
+GET /cat
+
+  Query # comment
+  ### 
+   block comment
+  ###
+    {
+      "id": 123, # comment in jschema
+      ###
+        block comment in jschema
+      ###
+      "friend:id": 123
+    }
+  ### 
+   block comment
+  ###
+
+GET /cat
+
+  Query "param=some&param2=other" htmlFormEncoded # comment
+  ### 
+   block comment
+  ###
+    @someQueryType # comment
+  ### 
+   block comment
+  ###

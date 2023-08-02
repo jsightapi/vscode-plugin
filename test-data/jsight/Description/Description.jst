@@ -1,0 +1,46 @@
+# Markdown highlight will onl work correcly without basic indentation 
+# (because of raw block feature in MD)
+
+Description 
+# Some header
+* one
+* two 
+
+**bold** _italic_
+[link](url) 
+
+```javascript
+let one = 1
+```
+<!-- markdown comment -->
+
+
+GET /dummy 
+# Explicit boudaries
+Description 
+(
+# Some header
+* one
+* two 
+
+**bold** _italic_
+[link](url) 
+
+```javascript
+let one = 1
+```
+)
+
+
+GET /dummy 
+# Explicit boudaries
+Description 
+(
+    # Some header
+    * one
+    * two 
+    URL is not a directive, because of explicit boundaries
+)
+
+**this is not markdown, because explicit boundary was closed**
+URL /some

@@ -1,0 +1,25 @@
+GET /cats
+
+  Query "param=some&param2=other" noFormat // annotation not supported  
+    {
+      "param": "some",
+      "param2": "other"
+    }
+
+
+GET /cats
+
+  Query "param=some&param2=other" unsupportedFormat
+   {
+      "param": "some",
+      "param2": "other"
+    }
+
+
+GET /cats
+
+  Query without=quotes unsupportedFormat
+   {
+      "param": "some",
+      "param2": "other"
+    }

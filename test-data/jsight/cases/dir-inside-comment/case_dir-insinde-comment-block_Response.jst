@@ -1,0 +1,39 @@
+JSIGHT 0.3
+
+INFO
+  Title "Highlight test"
+
+GET /some
+
+200
+  ### 
+    TODO: some comment
+    comment comment
+  ###
+  {
+    "one": "two"
+  }
+
+### 
+TODO:
+ENUM @catSizeEnum // Cat’s sizes.
+[
+  // Small cats.
+  "S",
+  "M",
+  // Normal cats.
+  "L",
+  /* Huge 
+  cats */
+  "XL",
+  "XXL"
+]
+###
+
+MACRO @commonErrors
+(
+  404
+    Body regex
+      /Bad request./
+  500 any
+)

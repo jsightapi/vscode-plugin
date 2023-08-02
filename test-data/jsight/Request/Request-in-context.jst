@@ -1,0 +1,41 @@
+POST /cats
+
+  Request jsight // annotation # comment
+    {
+      "name": "Tom"
+    }
+
+  201 // annotation # comment
+    "ok"
+
+# Explicit body
+POST /cats
+
+  Request
+    Body 
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"
+
+# Explicit body and headers
+POST /cats
+
+  Request
+    Headers
+      {
+        "Authorization": "123"
+      }
+
+    Body
+      {
+        "name": "Tom"
+      }
+
+  201 // annotation # comment
+    "ok"   
+  
+
+# 

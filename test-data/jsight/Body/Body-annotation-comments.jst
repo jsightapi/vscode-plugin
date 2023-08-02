@@ -1,0 +1,55 @@
+# TODO: rewrite considering limitations
+
+# For usertypes
+POST /dummy 
+
+  Body @some // annotation  # comment
+
+
+POST /dummy 
+
+  Body @some /* block one-line annotation */  # comment
+
+# TODO
+
+# For jsight
+
+POST /dummy 
+
+  Body /* mutli # comment
+            line # comment
+            annotation  # comment
+          */
+    ###
+      block comment
+    ### 
+    @some # comment
+
+
+POST /dummy 
+
+  Body /* annotation  # comment
+          */
+    ###
+      block comment
+    ### 
+    // annotation of nothing (not highlited)
+    123 # comment
+    // annotation of nothing (not highlited)
+
+
+POST /dummy 
+
+  Body // annotation # comment
+    ###
+      block comment
+    ### 
+    // annotation of nothing (not highlited)
+    {
+      "one": "two"
+    } # comment
+    // annotation of nothing (not highlited)
+
+# For regex
+
+# TODO

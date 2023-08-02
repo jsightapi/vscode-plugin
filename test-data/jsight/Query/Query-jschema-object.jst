@@ -1,0 +1,15 @@
+GET /cats
+
+  Query "param=some&param2=other" noFormat # comment
+    {
+      "param": "some",
+      "param2": "other"
+    }
+
+GET /cats
+
+  Query "param=some&param2=other" htmlFormEncoded # comment
+    {
+      "param": "some",
+      "param2": "other"
+    }

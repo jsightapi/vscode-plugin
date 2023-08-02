@@ -1,0 +1,45 @@
+Path
+ { // {additionalProperties: false}
+     "one": "two"
+ }
+
+Path # comment line
+# line comment
+###
+    block comment
+###
+ { // {additionalProperties: false}
+     "one": "two"
+ }
+
+Path # comment line
+  @userTypeAsSchema
+
+
+# Check that unsupported stuff is not highlighted
+
+Path @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+ { // {additionalProperties: false}
+     "one": "two"
+ }
+
+
+Path @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+ true # literals should not be highlighted as a valid schema here
+
+Path @userTypeShoulNotWorkAsParam // annotation not allowed so not highlighted # comments work
+ "string" # literals should not be highlighted as a valid schema here
+
+Path // annotation not allowed so not highlighted # comment line
+# arrays are not supported, so not hightlighted as a valid schema
+  [ // {additionalProperties: false}
+     "one": "two"
+  ]
+
+# The next directive is not affected by it
+ Query 
+  {
+      "one": "two" // {nullable: false}
+  }
+
+ 

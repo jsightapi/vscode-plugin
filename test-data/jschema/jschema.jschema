@@ -1,0 +1,44 @@
+{
+    "string": "someString", // {type: "enum", enum: ["enum","two","three"]}
+    "number": 123,          // {min: 1, max: 200}
+    "bool": true,           // {type: "@someType"}
+    "type": @cat,           // {nullable: true}
+    "types": @cat | @dog,   // {optional: true}
+    "array": [              // {minItems: 4}
+        -0.1, 
+        "two", 
+        true,
+        @type
+    ],
+    @namedKey: @type,       // {optional: true}
+    "object": {
+        "innerString": "some", // {minLength: 1} # comment
+        "innerFloat": -0.2, // {type: "decimal", precision: 1}
+    },
+    "enum": "enum", // {type: "enum", enum: ["enum", "class", "function"]} — this is enum  # comment
+    "regex": "val", // {regex: "[a-z]+"}
+
+    "booleans": "val", // {optional: true, nullable: false, const: true},
+
+    "exlusives": 10, // {min: 1, max: 10, exclusiveMinimum: true, exclusiveMaximum: true}
+
+    "allOfMany": {}, // {allOf: ["@cat", "@dog", "@pig"]}
+
+    "allOfOne": {}, // {allOf: "@cat"},
+
+    "addPropBool": "val", // {additionalProperties: true}
+
+    "addPropType": "val", // {additionalProperties: "enum"}
+
+    "addPropBoolSubschema": "val", // {additionalProperties: "@cat"}
+
+    "or": "or" /*   {
+                        or: [
+                                {type: "string"}, 
+                                {enum: ["min", "max", 2, 3, "min"]},
+                                "@someType"
+                            ]
+                    }
+                */
+
+}

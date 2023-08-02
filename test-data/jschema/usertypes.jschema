@@ -4,7 +4,7 @@
 
 @someType // {optional: false} — some text # comment
 
-@someTyoe | @otherType
+@someType | @otherType
 
 {
     "simple": @userType,
