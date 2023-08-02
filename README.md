@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://jsight.io" align="left"><img src="./images/jsight-logo.png" alt="Try now!" width="148px"/></a>
+<a href="https://jsight.io" align="left"><img src="https://raw.githubusercontent.com/jsightapi/vscode-plugin/main/images/jsight-logo.png" alt="Try now!" width="148px"/></a>
 	
 # JSight VS Code Extension
 
@@ -10,22 +10,13 @@
   [![JSight on LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/jsightapi/)
   [![Twitter Follow](https://img.shields.io/twitter/follow/jsightapi.svg?style=social)](https://twitter.com/jsightapi)
 
+⭐ If you like JSight, give it a star on [GitHub](https://github.com/jsightapi/online-editor-frontend)! ⭐
+
 </div>
 
-## Installation
+## Change the Color Theme!!!
 
-JSight VS Code Extension can be installed exactly like any other VS Code extension. See more here:
-[Install an
-extension](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension)
-
-## Features
-
-- [JSight API](https://jsight.io/docs/jsight-api-0-3) syntax highlight. JSight API files: `*.jst`, `*.jsight`.
-- [JSight Schema](https://jsight.io/docs/jsight-schema-0-3) syntax highlight. JSight Schema files: `*.jschema`.
-
-## Change Color Theme
-
-Once you have installed the JSight extension, you should change the color theme, which will make your
+Once you have [installed](#installation) the JSight extension, you should change the color theme, which will make your
 JSight files more readable:
 
 1. In VS Code, open the Color Theme picker with **File** > **Preferences** > **Theme** > **Color Theme**.
@@ -35,6 +26,17 @@ JSight files more readable:
 
 See more about Color Themes here: [Selecting the Color
 Theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
+
+## Installation
+
+JSight VS Code Extension can be installed exactly like any other VS Code extension. See more here:
+[Install an
+extension](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension).
+
+## Features
+
+- [JSight API](https://jsight.io/docs/jsight-api-0-3) syntax highlight. JSight API files: `*.jst`, `*.jsight`.
+- [JSight Schema](https://jsight.io/docs/jsight-schema-0-3) syntax highlight. JSight Schema files: `*.jschema`.
 
 ## Release Notes
 
