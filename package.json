@@ -1,8 +1,10 @@
 {
     "name": "jsight",
     "displayName": "JSight",
-    "description": "JSight Language",
+    "description": "JSight API & JSight Schema languages official extension",
+    "publisher": "jsight",
     "version": "1.0.0",
+    "icon": "./favicon.png",
     "engines": {
         "vscode": "^1.61.0"
     },
