@@ -29,6 +29,8 @@ Theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color
 
 ## Installation
 
+Official installation link on VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=jsight.jsight.
+
 JSight VS Code Extension can be installed exactly like any other VS Code extension. See more here:
 [Install an
 extension](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-an-extension).
