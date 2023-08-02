@@ -4,13 +4,17 @@
     "description": "JSight API & JSight Schema languages official extension",
     "publisher": "jsight",
     "version": "1.0.0",
-    "icon": "./favicon.png",
+    "icon": "./images/icon.png",
     "engines": {
         "vscode": "^1.61.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jsightapi/vscode-plugin.git"
+      },
     "contributes": {
         "languages": [
             {

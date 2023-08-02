@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://jsight.io" align="left"><img src="https://raw.githubusercontent.com/jsightapi/online-editor-frontend/main/img/jsight-logo.svg" alt="Try now!" width="148px"/></a>
+<a href="https://jsight.io" align="left"><img src="./images/jsight-logo.png" alt="Try now!" width="148px"/></a>
 	
 # JSight VS Code Extension
 
   [![Telegram support](https://img.shields.io/badge/Support-Telegram-blue)](https://t.me/jsight_support)
-  [![License](https://img.shields.io/github/license/jsightapi/online-editor-frontend?colorB=ff0000)](./LICENSE)
+  [![License](https://img.shields.io/github/license/jsightapi/online-editor-frontend?colorB=ff0000)](https://github.com/jsightapi/vscode-plugin/blob/main/LICENSE)
   [![JSight on Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/jsightapi)
   [![JSight on LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/jsightapi/)
   [![Twitter Follow](https://img.shields.io/twitter/follow/jsightapi.svg?style=social)](https://twitter.com/jsightapi)
