@@ -21,3 +21,7 @@ Thumbs.db
 # vscode
 /.vscode/
 /jschema.iml
+/local
+/.vscode-test
+node_modules
+out
