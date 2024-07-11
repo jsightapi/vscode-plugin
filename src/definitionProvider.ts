@@ -22,8 +22,8 @@ export class JSightDefinitionProvider implements DefinitionProvider {
     }
 
     const definitionLinePos = document.positionAt(definitionLineOffset)
-    const declarationLine = document.lineAt(definitionLinePos)
-    const typeNameOffset = declarationLine.text.search(new RegExp(typeName))
+    const definitionLine = document.lineAt(definitionLinePos)
+    const typeNameOffset = definitionLine.text.search(new RegExp(typeName))
     const pos = document.positionAt(definitionLineOffset + typeNameOffset)
 
     return new Location(document.uri, pos)
