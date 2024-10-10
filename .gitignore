@@ -13,9 +13,9 @@ Thumbs.db
 .history/
 *.vsix
 /.vscode/
-.vscode-test/
+/.vscode-test
 /jschema.iml
 /out
-out
 dist
 node_modules
+/local
