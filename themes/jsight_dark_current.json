@@ -73,8 +73,8 @@
 			}
 		},
 		{
-			"name": "JSight «Protocol» directive",
-			"scope": "keyword.control.jsight.directive.protocol",
+			"name": "JSight 'Meta'-directives (Protocol, OperationId, ...)",
+			"scope": "keyword.control.jsight.directive.meta",
 			"settings": {
 				"foreground": "#48cccb"
 			}
